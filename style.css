@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffe6ee;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.envelope {
+    width: 320px;
+    height: 220px;
+    background: #ff8fab;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.flap {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-top: 110px solid #ffb3c6;
+}
+
+.letter {
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    width: 270px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 8px;
+}
+
+.letter h1 {
+    color: #ff4d6d;
+}
+
+button {
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    background: #ff4d6d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.confession {
+    display: none;
+    max-width: 500px;
+    padding: 35px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.confession h1 {
+    color: #ff4d6d;
+}
+
+.confession h2 {
+    color: #ff4d6d;
+}
